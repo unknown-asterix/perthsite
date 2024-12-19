@@ -1,0 +1,159 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf3dd;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
+#hero {
+    background-image: url("images/Perth1.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    height: 343px;
+}
+
+#hero-title {
+    background: #68b0ab;
+    padding: 5px 10px;
+    width: 225px;
+    border-radius: 5px;
+    margin: 120px 0 10px 0;
+    font-size: 32px;
+}
+
+#hero-title:hover{
+    padding: 15px 20px;
+}
+
+#hero-describe {
+    background: #4a7c59; 
+    width: 412px;
+    padding: 5px 10px;
+    font-size: 19px;
+    margin: 0 0 120px 0;
+    border-radius: 5px;
+}
+#hero-describe:hover {
+    padding: 10px 15px;
+}
+
+.activity-section{
+    height: 378px;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 44px;
+    font-size: 24px;
+    color: #003049;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+#image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #003049;
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50pc;
+    margin: 0 30px;
+    border: space-between;
+}
+
+.img-txt-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 198px;
+    height: 226px;
+    padding: 10px;
+}
+
+#guide {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+
+#card{
+    width: 400px;
+    height: 295px;
+    background-color: #c8d5b9;
+    color: #003049;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border-bottom: solid #1D3557 6px;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#card-img{
+    width: 170px;
+    height: 249px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 24px;
+
+}
+
+#card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 24px;
+    
+}
+
+.card-text{
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-title {
+    margin-bottom: 0;
+}
+
+#card-title {
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-top: 49px;
+}
+
+
+#about-links {
+    background-color: white;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 1pc;
+    margin: 10px auto 50px auto;
+
+}
+   
